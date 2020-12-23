@@ -4,9 +4,8 @@
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/AbirHasan2005/Telegram-Leech-Bot.git",
-  "success_url": "https://github.com/AbirHasan2005/Telegram-Leech-Bot/tree/master",
-  "website": "https://github.com/AbirHasan2005/Telegram-Leech-Bot",
+  "repository": "https://github.com/AbirHasan2005/Telegram-Leech-Bot",
+  "website": "https://t.me/linux_repo",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
