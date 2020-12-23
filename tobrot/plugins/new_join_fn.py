@@ -31,28 +31,3 @@ async def new_join_f(client, message):
         )
     # delete all other messages, except for AUTH_CHANNEL
     await message.delete(revoke=True)
- 
- 
-async def help_message_f(client, message):
-    # await message.reply_text("no one gonna help you 🤣🤣🤣🤣", quote=True)
-    #channel_id = str(AUTH_CHANNEL)[4:]
-    #message_id = 99
-    # display the /help
-    
-    await message.reply_text("""**Hey [{}](tg://user?id={})!!\n Please Read <a href='https://t.me/Discovery_Updates/7'>This Message</a> To know how to use Me  \n""", disable_web_page_preview=True)
- 
- 
-async def rename_message_f(client, message):
-    inline_keyboard = []
-    inline_keyboard.append([
-        pyrogram.InlineKeyboardButton(
-            text="read this?",
-            url="https://t.me/keralagram/698909"
-        )
-    ])
-    reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
-    await message.reply_text(
-        "PLEASE USE @Files_Uploader_Robot",
-        quote=True,
-        reply_markup=reply_markup
-    )
