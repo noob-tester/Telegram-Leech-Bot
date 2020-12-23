@@ -178,7 +178,7 @@ and everythin except `[NAME]`
        
 * `/log`: This will send you a txt file of the logs.
 
-* `/ytdl`: This command should be used as reply to a [supported link](https://ytdl-org.github.io/youtube-dl/supportedsites.html)
+* `/ytdl`: This command should be used as reply to a [supported link](https://ytdl-org.github.io/youtube-dl/supportedsites.html).
 
 * `/pytdl`: This command will download videos from youtube playlist link and will upload to telegram.
 
@@ -240,7 +240,7 @@ cd telegram-leech-bot
 ```
 
 - Install requirements
-For Debian based distros
+For Debian based distros (Like: Ubuntu)
 ```
 sudo apt install python3
 
@@ -250,6 +250,8 @@ Install Docker by following the [official docker docs](https://docs.docker.com/e
 
 ## Setting up config file
 ```
+nano tobrot g_config.py
+
 cp tobrot/g_config.py tobrot/config.py
 ```
 Follow and fill all the required variables that were already filled in the sample config file, but with your details. And you can also fill all other variables according to your need and all those are explained above already.
@@ -262,11 +264,11 @@ sudo dockerd
 ```
 - Build Docker image:
 ```
-sudo docker build . -t torrentleech-gdrive
+sudo docker build . -t bot
 ```
 - Run the image:
 ```
-sudo docker run torrentleech-gdrive
+sudo docker run bot
 ```
 
 
