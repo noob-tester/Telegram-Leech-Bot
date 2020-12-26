@@ -2,9 +2,13 @@ aiohttp
 aria2p
 hachoir
 Pillow
+
 pyrogram
+asyncio
+#https://github.com/pyrogram/pyrogram/archive/asyncio-dev.zip
+
 tgcrypto
 #git+https://github.com/l1ving/youtube-dl.git
 git+https://github.com/ytdl-org/youtube-dl
-it
+
 hurry.filesize
